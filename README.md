@@ -19,3 +19,7 @@
 - sts 경로 설정
 ![image](https://github.com/user-attachments/assets/ebbb0fd8-5dba-423a-8b73-ce20bee16f84)
 - 인스톨
+
+### Spring 환경설정
+- Spring UTF-8 환경 설정: window -> preference -> SPELL, ENcoding
+- Marketplace: Web검색 -> Eclipse Enterprise java and Web Developer Tools 3.31
