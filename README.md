@@ -13,3 +13,6 @@
 ### lombok 다운
 - lombok 검색 -> 다운로드 ->  Download 1.18.36
 - lombok.jar -> sts-4.20.1.RELESE로 이동
+
+### lombok 설치(관리자 권한으로 실행)
+![image](https://github.com/user-attachments/assets/2ebd2246-711b-4396-bc88-9deb5e3a17e4)
