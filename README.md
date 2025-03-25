@@ -23,3 +23,4 @@
 ### Spring 환경설정
 - Spring UTF-8 환경 설정: window -> preference -> SPELL, ENcoding
 - Marketplace: Web검색 -> Eclipse Enterprise java and Web Developer Tools 3.31
+ : 체크 항목 모두 선택 -> Trust -> restart
