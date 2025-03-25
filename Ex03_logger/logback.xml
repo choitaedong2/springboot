@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+	<encoder>
+		<pettern>
+			%d{yyyy-MM-dd HH:mm:ss} [%thread] [%-5level] %logger{36}
+		</pettern>
+	</encoder>
+</appender>
