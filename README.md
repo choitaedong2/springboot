@@ -16,3 +16,6 @@
 
 ### lombok 설치(관리자 권한으로 실행)
 ![image](https://github.com/user-attachments/assets/2ebd2246-711b-4396-bc88-9deb5e3a17e4)
+- sts 경로 설정
+![image](https://github.com/user-attachments/assets/ebbb0fd8-5dba-423a-8b73-ce20bee16f84)
+- 인스톨
