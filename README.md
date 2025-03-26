@@ -26,5 +26,5 @@
  : 체크 항목 모두 선택 -> Trust -> restart
 
 
-
+- Preference > General > Network Connection > Active Provider(Native -> Direct)
 * .xml파일 Web-app 오류 : version="2.4" 추가 시도
