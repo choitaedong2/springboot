@@ -28,3 +28,4 @@
 
 - Preference > General > Network Connection > Active Provider(Native -> Direct)
 * .xml파일 Web-app 오류 : version="2.4" 추가 시도
+- JSP 오류 발생시 : Properties > Project Facets > Dynamic Web Module 6.0 이상으로 변경 / build.gradle org.springframework.boot version '3.1.0'으로 변경
