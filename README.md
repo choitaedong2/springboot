@@ -25,4 +25,8 @@
 - Marketplace: Web검색 -> Eclipse Enterprise java and Web Developer Tools 3.31
  : 체크 항목 모두 선택 -> Trust -> restart
 
+### 오류 모음
+- Preference > General > Network Connection > Active Provider(Native -> Direct)
 * .xml파일 Web-app 오류 : version="2.4" 추가 시도
+- JSP 오류 발생시 : Properties > Project Facets > Dynamic Web Module 6.0 이상으로 변경 / build.gradle org.springframework.boot version '3.1.0'으로 변경
+- mapper 태그 오류시 ~> windows/system32/msvcr100.dll 복사하여 java/bin 폴더에 붙여넣기 || preference -> Maven -> User Settings -> Global settings(ojdbc6.jar 선택)
