@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+ <!-- mybatis 검색하여 mapper 상단 가져오기 -->
+<mapper namespace="com.study.springboot.repository.BoardDao">
+	<select id="totalRecord" resultType="_int">
+		select count(*) from boardtest
+	</select>
+	
+	<select id="list" resultType="com.study.springboot.domain.Board">
+		select * from boardtest order by boardno desc
+	</select>
+	
+	<select id="detailBoard" resultType="">
+	
+	</select>
+	
+	<insert id="" parameterType="com.study.springboot.">
+		#{title}
+	</insert>
+</mapper>
