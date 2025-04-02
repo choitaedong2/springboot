@@ -32,15 +32,12 @@ public class MemberService {
 		return memberRepository.findAll();
 	}
 
-	public Optional<Member> deleteById(Long id) {
+	public void deleteById(Long id) {
 		memberRepository.deleteById(id);
-		return null;
 	}
 
-	public Optional<Member> update(Member member) {
-		Member result = memberRepository.save(member);
-		
-		return result;
+	public Member update(Member member) {
+		return memberRepository.save(member);
 	}
 
 
