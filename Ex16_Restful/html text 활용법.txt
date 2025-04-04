@@ -1,0 +1,7 @@
+<div th:text="|총 게시글 수 : ${boardPage.totalElements}"></div>
+<hr>
+<div th:text="총 게시글 수 : " + "${boardPage.totalElements}"></div>
+<hr>
+test = <b>총 게시글 수</b>
+<div>[${test}]</div> -> 굵은 글씨로 : 총 게시글 수
+<hr>

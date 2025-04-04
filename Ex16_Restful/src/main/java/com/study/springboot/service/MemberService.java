@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.study.springboot.domain.Member;
+import com.study.springboot.dto.UserDto;
 import com.study.springboot.repository.MemberRepository;
 
 @Service
@@ -29,6 +30,10 @@ public class MemberService {
 		} else {
 			return null;
 		}
+	}
+
+	public Member saveUserDto(UserDto userDto) {
+		return null;
 	}
 	
 }
